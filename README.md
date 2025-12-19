@@ -23,7 +23,7 @@ The tool computes win/loss records, average margins, recent form, and identifies
 - JSON parsing
 - Command-Line Interface (CLI)
 
-
+---
 
 🚀 Getting Started
 
@@ -45,6 +45,8 @@ API_TOKEN = "YOUR_API_TOKEN"
 
 with your own API token.
 
+---
+
 ▶️ Running the Application
 python main.py
 
@@ -54,6 +56,8 @@ You will be prompted with a menu:
 1. Analyze Matchup (Spreads & Stats)
 2. Analyze Form (Recent Performance)
 3. Exit
+4. 
+---
 
 📊 Example Output
 
@@ -67,6 +71,8 @@ Recent win percentages
 
 Spread lines with historical hit rates displayed in the terminal
 
+---
+
 🧠 How It Works
 
 Sends HTTP requests to a sports data REST API
@@ -79,6 +85,8 @@ Applies custom statistical logic to analyze performance trends
 
 Displays results through an interactive CLI
 
+---
+
 🧪 Error Handling
 
 Gracefully handles missing or malformed API responses
@@ -86,6 +94,8 @@ Gracefully handles missing or malformed API responses
 Prevents crashes from invalid user input
 
 Stops pagination automatically when no more results are available
+
+---
 
 🔮 Future Improvements
 
@@ -98,6 +108,8 @@ Add data visualizations for performance trends
 Refactor the codebase into object-oriented design
 
 Deploy as a web-based analytics service
+
+---
 
 👤 Author
 
